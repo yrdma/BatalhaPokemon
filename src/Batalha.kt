@@ -1,12 +1,5 @@
 import kotlin.random.Random
 
-fun mostrarMenu(){
-    println("1 Escolher POkemons  ")
-    println("2 COMEÇAR BATALHA ")
-    println("3 Ver Pokemons ESCOLHIDOS ")
-    println("4 Sair ")
-}
-
 val pokemonsDisponiveis = Pokemons()// Supondo que Pokemons() seja a lista ou mapa de pokémons
 
 fun main() {
